@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Optimus Tech</title>
-    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
                     colors: {
                         clifford: '#da373d',
                     }
                 }
             }
-        }
+        };
     </script>
     
 </head>
-<body>
+<body class="font-sans">
     <main class="container mx-auto p-3">
         <nav class="flex items-center justify-between p-3 bg-white">
             <div class="flex items-center">
