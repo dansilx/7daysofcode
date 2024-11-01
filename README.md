@@ -18,3 +18,30 @@ Você também vai perceber que terá que utilizar muitas cores parecidas nesse p
 E agora, para utilizar essa variável, basta chamar:
 
 color: var(--text-color);
+
+hoje você vai desenvolver uma parte bem legal e desafiadora: a seção de métricas e resultados da sua página. Ela é uma seção muito comum na maioria das landing pages que vemos por aí hoje em dia.
+
+A empresa que te contratou pediu para você incluir 4 métricas diferentes, com um título, um subtítulo e um texto:
+
+Veja que as métricas estão uma do lado da outra. Para chegar a esse resultado, sua estrutura do HTML pode seguir esse raciocínio:
+
+<section class="metricas-container">
+        <div>primeira métrica aqui..</div>
+        <div>segunda métrica aqui..</div>
+        <div>terceira métrica aqui..</div>
+        <div>quarta métrica aqui..</div>
+</section>
+
+A tag <section> é uma tag semântica do HTML. Em termos de efeitos visuais, ela não difere em nada da <div>. Porém, a <div> é mais genérica, enquanto que a <section> passa mais esse significado de que aquilo é uma seção da sua página.
+
+Para separar as métricas em 4 partes, você poderá utilizar o CSS Grid, ou até mesmo o Flexbox, você decide!
+
+O que você vai fazer hoje é a seção de "Estamos procurando por talentos", mas sem a parte de divulgação de vagas ainda, apenas até a imagem!
+
+Você pode exportar essa imagem das pessoas na sala de reunião diretamente daquele arquivo lá do Figma (para acessar esse arquivo é só clicar aqui). Daí, você pode criar uma pasta dentro do seu projeto para colocar a imagem e utilizar a tag:
+
+<img src=""/>
+
+no código, referenciando-a.
+
+É sempre uma boa prática no CSS utilizar medidas responsivas como o rem, em, %, entre outras. Por isso, eu vou deixar um link aqui de um artigo muito completo da Alura, que fala exatamente sobre isso!
